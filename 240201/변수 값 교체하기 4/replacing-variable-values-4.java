@@ -3,6 +3,6 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         int a = 7;
         a = 4;
-        System.out.printf(a);
+        System.out.println(a);
     }
 }
