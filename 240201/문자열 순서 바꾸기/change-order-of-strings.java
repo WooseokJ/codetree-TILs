@@ -5,13 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.next();
         String str2 = sc.next();
-        Strint temp;
+        String temp;
         
         temp = str1;
         str1 = str2;
         str2 =  temp;
 
-        System.out.pinrtln(str1);
-        System.out.pinrtln(str2);
+        System.out.println(str1);
+        System.out.println(str2);
     }
 }
