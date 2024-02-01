@@ -5,9 +5,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-
-        b+=a;
-        a+=b;
+        int temp;
+        temp = b; // 3
+        a+=b; // 4
+        b+=a; // 
         System.out.printf("%d %d",a,b);
 
 
