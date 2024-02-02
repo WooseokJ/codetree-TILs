@@ -2,8 +2,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
-        Sacnner sc = new Sacnner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        System.out.printf("%d", ((a==100) ? "pass" : "failure" ));
+        System.out.printf("%s", ((a==100) ? "pass" : "failure" ));
     }
 }
