@@ -11,7 +11,11 @@ public class Main {
             }
             else if(b>= 90) {
                 System.out.println(50000);
-            }
-        } 
+            }else {
+                System.out.println(0);
+            } 
+        } else {
+                System.out.println(0);
+        }
     }
 }
