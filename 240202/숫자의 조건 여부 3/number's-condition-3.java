@@ -5,10 +5,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a= sc.nextInt();
         boolean result = true;
-        if( a % 13 == 0 || a $ 19 == 0 ) {
-            System.out.println(result);
+        if( a % 13 == 0 || a % 19 == 0 ) {
+            System.out.println("True");
         } else {
-                System.out.println(!result);
+                System.out.println("False");
         }
 
     }
