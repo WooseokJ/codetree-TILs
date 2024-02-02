@@ -11,11 +11,14 @@ public class Main {
         char gender1 = str.charAt(0);
         char gender2 = str2.charAt(0);
 
-        if( ((gender1 == 'M') || (gender2 == 'M')) && ( age >= 19 || age2 >= 19)) {
+        if(gender1 == 'M' && (age >= 19)) {
+            System.out.println(1);
+        } else if(gender2 == 'M' && (age2 >= 19)) {
             System.out.println(1);
         } else {
             System.out.println(0);
         }
+
 
         
     }
