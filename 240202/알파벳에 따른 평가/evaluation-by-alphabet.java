@@ -21,7 +21,7 @@ public class Main {
             result = "Usually";
             break;
             case 'D':
-            result = "Effot";
+            result = "Effort";
             break;
             default:
             result = "Failure";
