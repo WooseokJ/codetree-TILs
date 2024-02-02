@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
         String result;
-        if(a > 1.0) {
+        if(a >= 1.0) {
             result = "High";
         } else if(a >= 0.5) {
             result = "Middle";
