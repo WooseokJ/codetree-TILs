@@ -8,19 +8,19 @@ public class Main {
         char c = str.charAt(0);
         String result;
         switch (c) {
-            case "S" : 
+            case 'S' : 
             result = "Superior";
             break;
-            case "A":
+            case 'A':
             result = "Excellent";
             break;
-            case "B":
+            case 'B':
             result = "Good";
             break;
-            case "C":
+            case 'C':
             result = "Usually";
             break;
-            case "D":
+            case 'D':
             result = "Effot";
             break;
             default:
