@@ -8,8 +8,10 @@ public class Main {
         int a = sc.nextInt();
         if(a >= book) {
             System.out.println("book");
-        } else {
+        } else if(a >= mask){
             System.out.println("mask");
-        } 
+        }  else {
+            System.out.println("no");
+        }
     }
 }
