@@ -6,11 +6,11 @@ public class Main {
         int a = sc.nextInt();
         String result;
         if( a< 0) {
-            result = "ice"
+            result = "ice";
         } else if(a>=100) {
-            result = "vapor"
+            result = "vapor";
         } else {
-            result = "water"
+            result = "water";
         }
         System.out.println(result);
     }
