@@ -8,12 +8,15 @@ public class Main {
         switch (a) {
             case 1:
             result = "John";
+            break;
             case 2: 
-            result = "Tom";
+                result = "Tom";
+                break;
             case 3: 
-            result = "Paul";
+                result = "Paul";
+                break;
             default:
-            result = "Vacancy";
+                result = "Vacancy";
         }
         System.out.println(result);
     }
