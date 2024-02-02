@@ -6,7 +6,7 @@ public class Main {
         int a= sc.nextInt();
         int b= sc.nextInt();
 
-        System.out.printf("%s\n",isOdd(a));
+        System.out.printf("%s",isOdd(a));
         System.out.printf("%s",isOdd(b));
 
     }
