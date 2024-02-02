@@ -5,11 +5,13 @@ public class Main {
         Scanner sc =new Scanner(System.in);
         int a= sc.nextInt();
         int b= sc.nextInt();
-        System.out.println(isOdd(a));
-        System.out.println(isOdd(b));
+
+        System.out.printf("%s",isOdd(a));
+        System.out.printf("%s",isOdd(b));
+
     }
 
-    public String isOdd(int n) {
+    public static String isOdd(int n) {
         if( n % 2 == 0 ){
             return "even";
         } else {
