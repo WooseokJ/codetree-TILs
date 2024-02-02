@@ -7,10 +7,11 @@ public class Main {
         double b = sc.nextInt();
         a = a / 100;
         double obesity = b / (a * a);
+         System.out.println((int) obesity);
         if( obesity >= 25) {
-            System.out.println((int) obesity);
+           
             System.out.println("Obesity");
-        }
+        } 
         
     }
 }
