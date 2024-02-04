@@ -12,6 +12,6 @@ public class Main {
                 status = true;
             }
         }
-        System.out.printf("%s", status ? "No" : "YES");
+        System.out.printf("%s", status ? "NO" : "YES");
     }
 }
