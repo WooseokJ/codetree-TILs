@@ -9,7 +9,7 @@ public class Main {
             int a = sc.nextInt();
             if(a % 3 == 0 ) {
                 cntThree+=1;
-            } else if(a % 5 == 0) {
+            } if(a % 5 == 0) {
                 cntFive+=1;
             }
         }
