@@ -7,14 +7,14 @@ public class Main {
         int cnt = 0;
         int i = 1; 
         while(true) {
-            n /= i;
-            cnt++;
-            i++;
-
             if(n == 0) {
                 System.out.printf("%d", cnt);
                 break;
             }
+            n /= i;
+            cnt++;
+            i++;
+          
         }
     }
 }
