@@ -9,6 +9,8 @@ public class Main {
             for(int i = 0 ; i < b ; i++){
                 System.out.printf("%d",a);
             }
+        } else {
+            System.out.printf("0");
         }
     }
 }
