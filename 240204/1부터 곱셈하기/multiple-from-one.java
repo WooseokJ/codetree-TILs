@@ -9,6 +9,7 @@ public class Main {
             prod *= i;
             if(prod >= a) {
                 System.out.printf("%d", i);
+                break;
             }
         }
     }
