@@ -7,11 +7,12 @@ public class Main {
         String str2= sc.next();
         String resultStr;
         if(str1.length() == str2.length()) {
-                resultStr = "same";
+            System.out.printf("same");
         } else {
             resultStr = (str1.length() > str2.length() ? str1 : str2);
+            System.out.printf("%s %d", resultStr, resultStr.length());
+
         }
 
-        System.out.printf("%s %d", resultStr, resultStr.length());
     }
 }
