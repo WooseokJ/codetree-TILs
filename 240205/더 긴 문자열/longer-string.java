@@ -5,7 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str1= sc.next();
         String str2= sc.next();
-        String resultStr = (str1.length() > str2.length() ? str1 : str2);
+        String resultStr;
+        if(str1.length() == str2.length()) {
+            resultStr = (str1.length() > str2.length() ? str1 : str2);
+        } else {
+            resultStr = "same";
+        }
+
         System.out.printf("%s %d", resultStr, resultStr.length());
     }
 }
