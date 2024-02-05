@@ -8,11 +8,12 @@ public class Main {
             int n = sc.nextInt();
             if(str.length() < n) {
                 str = str.substring(0, str.length() - 1);
-                System.out.println(str);
-                break;
+            } else {
+                str = str.substring(0,n) + str.substring(n+1);
             }
-            str = str.substring(0,n) + str.substring(n+1);
             System.out.println(str);
+            if(str.length() == 1) 
+                break;
         }
 
     }
