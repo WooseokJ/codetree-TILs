@@ -5,9 +5,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String a= sc.next();
         int len = a.length();
-        for(int i = 0; i < len ; i ++) {
-            if( i % 2 == 0) {
-                System.out.printf("%c",a.charAt(len - 1 - i));
+        for(int i = len - 1; i >= 0 ; i --) {
+            if( i % 2 != 0) {
+                System.out.printf("%c",a.charAt(i));
             }
         }
     }
