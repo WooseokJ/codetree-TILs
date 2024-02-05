@@ -6,6 +6,9 @@ public class Main {
         int[] arr = new int[10];
         for(int i = 0 ; i < 10; i++) {
             arr[i] = sc.nextInt();
+            if(arr[i] == 0 ) {
+                break;
+            }
             if(arr[i] % 2 == 0) {
                 arr[i] /= 2;
             } else {
