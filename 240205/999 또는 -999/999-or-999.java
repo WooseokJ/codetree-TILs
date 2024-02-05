@@ -15,7 +15,8 @@ public class Main {
             }
             if(arr[i] > maxVal) {
                 maxVal = arr[i];
-            } else {
+            } 
+            if(arr[i] < minVal) {
                 minVal = arr[i];
             }
         }
