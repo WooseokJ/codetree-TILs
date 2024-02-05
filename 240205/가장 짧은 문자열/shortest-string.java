@@ -33,7 +33,7 @@ public class Main {
         int c = str3.length();
         if(a > b) {
             if( b < c) {
-                return a;
+                return b;
             } else {
                 return c;
             }
