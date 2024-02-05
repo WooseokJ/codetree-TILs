@@ -5,7 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str= sc.next();
         String c = sc.next();
-        System.out.println(str.indexOf(c));
+        int num = str.indexOf(c);
+        if( num == -1) {
+            System.out.println("No");
+        } else{ 
+            System.out.println(num);
+        }
+        
 
     }
 }
