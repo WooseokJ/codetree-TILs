@@ -8,7 +8,6 @@ public class Main {
         for(int i = 0; i < len ; i ++) {
             if( i % 2 == 0) {
                 System.out.printf("%c",a.charAt(len - 1 - i));
-
             }
         }
     }
