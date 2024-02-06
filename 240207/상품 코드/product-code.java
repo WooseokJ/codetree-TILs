@@ -8,7 +8,7 @@ class Product {
     }
     void print() {
         System.out.println("product 50 is codetree");
-        System.out.println("product %d is %s", code, name);
+        System.out.printf("product %d is %s", code, name);
     }
 }
 public class Main {
