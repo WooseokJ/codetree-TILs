@@ -5,9 +5,9 @@ public class Main {
         Scanner sc =new Scanner(System.in);
         String str = sc.next();
         for(int i = 0 ;i < str.length(); i++) {
-            if (str.charAt(i) > 'A' && str.charAt(i) < 'Z') 
+            if (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') 
                 System.out.printf("%c", str.charAt(i));
-            else if(str.charAt(i) > 'a' && str.charAt(i) < 'z') 
+            else if(str.charAt(i) >= 'a' && str.charAt(i) <= 'z') 
                 System.out.printf("%c", str.charAt(i) + 'A' - 'a');
         }
     }
