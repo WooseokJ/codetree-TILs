@@ -10,6 +10,7 @@ public class Main {
             arr[i] = sc.nextInt();
         Arrays.sort(arr);
 
-        System.out.println(arr[k]);
+        System.out.println(arr[k-1]);
+        
     }
 }
