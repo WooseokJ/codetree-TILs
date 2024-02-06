@@ -7,7 +7,7 @@ public class Main {
         findGCD(n,m);
     }
 
-    public static void findGCD(int n, int m) {
+    public static void findLCM(int n, int m) {
         int gcd = 0 ;
         for(int i = 1 ; i <= Math.max(n,m); i++) {
             if(n % i == 0 && m % i == 0) {
@@ -15,6 +15,6 @@ public class Main {
             }
         }
         
-        System.out.println(gcd);
+        System.out.println( ( n * m)/ gcd);
     }
 }
