@@ -30,7 +30,7 @@ public class Main {
             @Override
             public int compare(User a, User b) {
                 if(a.height == b.height) {
-                    return b.height - a.height;
+                    return b.kg - a.kg;
                 }
                 return a.height - b.height;
             }
