@@ -10,8 +10,9 @@ public class Main {
         Arrays.sort(arr);
 
         int result = 0;
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++){
             result += arr[i];
         }
         System.out.println(result);
+    }
 }
