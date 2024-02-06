@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        findGCD(n,m);
+        findLCM(n,m);
     }
 
     public static void findLCM(int n, int m) {
