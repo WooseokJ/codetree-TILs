@@ -8,6 +8,6 @@ public class Main {
         int c1 = (int) str.charAt(0);
         int c2 = (int) str2.charAt(0);
 
-        System.out.print("%d %d", (c1+c2), (c1>c2 ? c1-c2 : c2-c1));
+        System.out.printf("%d %d", (c1+c2), (c1>c2 ? c1-c2 : c2-c1));
     }
 }
