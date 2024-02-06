@@ -11,8 +11,8 @@ class Code {
     }
 
     void print() {
-        System.out.printf("code : %s", code);
-        System.out.printf("color : %s", color);
+        System.out.printf("code : %s\n", code);
+        System.out.printf("color : %s\n", color);
         System.out.printf("second : %d", second);
     }
 }
