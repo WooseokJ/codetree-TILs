@@ -5,6 +5,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = (int) sc.next().charAt(0);
         n+=1;
-        System.out.printf("%c", (char)n);
+        if(n == 123) {
+            System.out.print("a");
+        } else {
+            System.out.printf("%c", (char)n);
+        }
     }
 }
