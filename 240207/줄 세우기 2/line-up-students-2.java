@@ -10,7 +10,7 @@ class User {
         rank = r;
     }
     void print() {
-        System.out.printf("%d %d %d\n", kg, height, rank);
+        System.out.printf("%d %d %d\n",height, kg , rank);
     }
 }
 
@@ -21,8 +21,8 @@ public class Main {
         int n = sc.nextInt();
         User[] users = new User[n];
         for(int i = 0; i < n; i++) {
-            int kg = sc.nextInt();
             int height = sc.nextInt();
+            int kg = sc.nextInt();
             users[i] = new User(kg, height, i+1);
         }
 
