@@ -25,7 +25,10 @@ public class Main {
                 break;
                 
         }
-        System.out.printf("%d", min1 > min2 ? min2 : min1);
+        if(min1 == len && min2 == len2)
+            System.out.printf("-1");
+        else 
+            System.out.printf("%d", min1 > min2 ? min2 : min1);
             
     }
 }
