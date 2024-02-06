@@ -2,7 +2,7 @@ import java.util.*;
 class Product {
     String name;
     int code;
-    product(String n, int c) {
+    Product(String n, int c) {
         name = n;
         code = c;
     }
