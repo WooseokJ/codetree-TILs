@@ -39,7 +39,7 @@ public class Main {
             students[i] = new Student(height, kg, i + 1);
         }
         Arrays.sort(students);
-        for(int i = n -1 ; i >= 0 ; i++)
+        for(int i = n -1 ; i >= 0 ; i--)
             students[i].print();
 
 
