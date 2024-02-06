@@ -31,7 +31,7 @@ public class Main {
         for(int i = 0; i < n; i++) {
             arr[i] = users[i].name;
         }
-        Arrays.sort(arr);
+        Arrays.sort(arr, Collections.reverseOrder());
 
         for(User user: users) {
             if(arr[0] == user.name) {
