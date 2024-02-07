@@ -10,20 +10,20 @@ public class Main {
 
         int[] monthArr = new int[]{0,31,30,31,30,31,30,
                                 31,31,30,31,30,31};
-        int diffday = 1;
+        int diffday = 0;
         while(true) {
-        
+            if(m1 == m2 && d1 == d2) {
+                break;
+            }
             d1++;
             diffday++;
             if(d1 > monthArr[m1]) {
                 m1++;
                 d1 = 1;
             }
-            if(m1 == m2 && d1 == d2) {
-                break;
-            }
+          
         }        
-        System.out.println(diffday);
+        System.out.println(diffday+1);
             
     }
 }
