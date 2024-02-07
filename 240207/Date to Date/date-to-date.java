@@ -8,7 +8,7 @@ public class Main {
         int m2 = sc.nextInt();
         int d2 = sc.nextInt();
 
-        int[] monthArr = new int[]{0,31,30,31,30,31,30,
+        int[] monthArr = new int[]{0,31,28,31,30,31,30,
                                 31,31,30,31,30,31};
         int diffday = 0;
         while(true) {
