@@ -19,6 +19,8 @@ public class Main {
             } else if( c == 'F') {
                 nx = x + dx[dirNum];
                 ny = y + dy[dirNum];
+                x = nx;
+                y = ny;
             }
         }
 
