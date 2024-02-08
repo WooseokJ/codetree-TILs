@@ -13,7 +13,7 @@ public class Main {
         for(int i = 0 ; i < str.length(); i++) {
             char c = str.charAt(i);
             if(c == 'L') {
-                dirNum = (dirNum - 1 + 3) % 4; // 반시계
+                dirNum = (dirNum - 1 + 4) % 4; // 반시계
             } else if(c == 'R') {
                 dirNum = (dirNum + 1) % 4; // 시계
             } else if( c == 'F') {
