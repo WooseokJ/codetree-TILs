@@ -8,7 +8,6 @@ public class Main {
         int cnt = 0;
         for(int i = a; i <= b;i++) {
             if (isNum(i)) {
-                System.out.println(i);
                 cnt++;
             }
         }
@@ -20,11 +19,15 @@ public class Main {
     }
 
     private static boolean contain369(int n) {
-        switch (n % 10) {
+        while(n > 0) {
+            switch (n % 10) {
             case 3: return true;
             case 6: return true;
             case 9: return true;
+            }
+            n /= 10;
         }
+    
         return false;
     }
 
