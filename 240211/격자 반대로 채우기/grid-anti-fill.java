@@ -1,11 +1,12 @@
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
-             Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
         // 입력 받기
-        int n = 4; // 격자의 행 수
-        int m = 4; // 격자의 열 수
+        int n = sc.nextInt();
+        int m = n;
         int[][] grid1 = new int[n][m];
         int[][] grid2 = new int[n][m];
 
