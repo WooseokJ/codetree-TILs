@@ -11,7 +11,7 @@ public class Main {
             }
         }
         for(int i = 0 ; i < 4; i++) {
-            for(int j = 0; j < i; j++) {
+            for(int j = 0; j <= i; j++) {
                 sum += arr[i][j];
             }
         }
