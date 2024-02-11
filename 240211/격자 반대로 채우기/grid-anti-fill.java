@@ -5,7 +5,7 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
 
         // 입력 받기
-        int n = sc.nextInt();
+        int n = scanner.nextInt();
         int m = n;
         int[][] grid1 = new int[n][m];
         int[][] grid2 = new int[n][m];
